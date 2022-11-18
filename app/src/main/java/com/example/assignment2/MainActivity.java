@@ -50,9 +50,18 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return true; // the user select add menu item
         }
+        else{
+
+        }
         //diy about us here
 
         return false; // the user did not select the menu item
+    }
+
+    public void addNew(View view){
+        Intent intent = new Intent(getApplicationContext(),
+                note_editor.class); // open the link and page
+        startActivity(intent);
     }
 
     @Override
@@ -60,8 +69,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageButton addBtn = (ImageButton) findViewById(R.id.add);
+
         // get the list view object from xml files
         ListView listView = (ListView) findViewById(R.id.listView);
+
        // setup the shared preferences object in this app
        // for private use only, the SP aka file can be accessed by this app only
         SharedPreferences sharedPreferences =

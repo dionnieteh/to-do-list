@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
 import android.widget.EditText;
 
 import java.util.HashSet;
@@ -76,5 +77,9 @@ public class note_editor extends AppCompatActivity {
 
             } // nothing happen
         }); // end of listener
+    }
+
+    public void back (View view){
+        startActivity(new Intent(note_editor.this, MainActivity.class));
     }
 }

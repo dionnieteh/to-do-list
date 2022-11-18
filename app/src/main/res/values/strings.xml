@@ -3,4 +3,8 @@
     <string name="menuItem1">Add note</string>
     <string name="menuItem2">About us</string>
     <string name="editing">You are editing...</string>
+    <string name="back">Back</string>
+    <string name="about_me">About Me</string>
+    <string name="about_text">Hello there! First, I would like to thank you for downloading my to-do list application. This app was made for my college project. Hope this basic app helps you keeping track on your tasks!</string>
+    <string name="line1">--------------------------------------------</string>
 </resources>
