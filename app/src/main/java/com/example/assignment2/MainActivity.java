@@ -50,8 +50,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return true; // the user select add menu item
         }
-        else{
-
+        else if (item.getItemId() == R.id.about_us){
+            Intent intent = new Intent(getApplicationContext(),
+                    about_us.class); // open the link and page
+            startActivity(intent);
+            return true;
         }
         //diy about us here
 

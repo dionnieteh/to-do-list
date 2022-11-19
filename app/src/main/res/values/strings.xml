@@ -2,9 +2,11 @@
     <string name="app_name">My To-Do List</string>
     <string name="menuItem1">Add note</string>
     <string name="menuItem2">About us</string>
-    <string name="editing">You are editing...</string>
+    <string name="editing">You are editing…</string>
     <string name="back">Back</string>
     <string name="about_me">About Me</string>
-    <string name="about_text">Hello there! First, I would like to thank you for downloading my to-do list application. This app was made for my college project. Hope this basic app helps you keeping track on your tasks!</string>
-    <string name="line1">--------------------------------------------</string>
+    <string name="line1">------------------------------------------</string>
+    <string name="about_text1">Hello there! First, I would like to thank you for downloading my to-do list application. </string>
+    <string name="about_text2">This is a basic note app where you can add and delete notes. Contact me if you experience any problems.</string>
+    <string name="about_text3">Dionne | dionneteh44@gmail.com</string>
 </resources>
