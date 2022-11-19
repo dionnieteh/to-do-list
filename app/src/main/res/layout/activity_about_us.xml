@@ -4,92 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".about_us"
     android:padding="20dp"
     android:background="@drawable/bg3"
-    >
+    tools:context=".about_us">
 
     <TextView
         android:id="@+id/about_me"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:textColor="@color/purple_700"
-        android:layout_centerHorizontal="true"
-        android:text="@string/about_me"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:textSize="30sp"
-        />
+        android:text="@string/about_me" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
         android:id="@+id/deco1"
-        android:textColor="@color/purple_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/about_me"
-        android:text="@string/line1"
         android:layout_centerHorizontal="true"
-        />
+        android:textColor="@color/purple_200"
+        android:textSize="30sp"
+        android:text="@string/line1" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:layout_below="@id/deco1"
         android:id="@+id/about_text1"
-        android:text="@string/about_text1"
-        android:textStyle="bold"
-        />
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/deco1"
         android:textSize="25sp"
-        android:layout_below="@id/about_text1"
-        android:id="@+id/about_text2"
-        android:layout_marginTop="20dp"
-        android:text="@string/about_text2"
         android:textStyle="bold"
+        android:text="@string/about_text1" />
 
-        />
+    <TextView
+        android:id="@+id/about_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_text1"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/about_text2" />
 
     <ImageView
+        android:id="@+id/img"
         android:layout_width="240dp"
         android:layout_height="190dp"
         android:layout_above="@id/about_text3"
-      android:layout_centerHorizontal="true"
-android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
         android:src="@drawable/img" />
 
     <TextView
         android:id="@+id/about_text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/about_text3"
         android:layout_above="@id/deco2"
-        android:textColor="@color/purple_500"
         android:layout_centerHorizontal="true"
-        android:textSize="23sp" />
+        android:textColor="@color/purple_500"
+        android:textSize="23sp"
+        android:text="@string/about_text3" />
 
     <TextView
         android:id="@+id/deco2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/backBtn"
-        android:text="@string/line1"
         android:layout_centerHorizontal="true"
-
         android:textColor="@color/purple_700"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:text="@string/line1" />
 
     <Button
         android:id="@+id/backBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
+        android:paddingHorizontal="30dp"
         android:onClick="back"
         android:textSize="20sp"
-        android:paddingHorizontal="30dp"
-        android:text="@string/back"/>
+        android:text="@string/back" />
 
 </RelativeLayout>
